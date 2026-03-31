@@ -1,4 +1,4 @@
-# Learning-React-
+# Learning-React- by Namast∈ React#
 Learning React
 
 This repository contains my React learning journey with examples and small projects. It covers the basics of React along with important concepts needed to build modern web applications.
