@@ -20,6 +20,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
 
 
+// React functional component //
+
+const HeadingComponent = () =>{
+    return <h1> Hello react using functional component </h1>
+}
 
 
 
