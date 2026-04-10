@@ -82,4 +82,4 @@ Technology	Usage
 🌐 HTML	Structure
 🎨 CSS	Styling
  
-State Management
+State Management.
