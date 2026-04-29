@@ -9,6 +9,14 @@ body- search bar / resto container >> resturant card
 footer  // copyrights, links, address, contact info     
 */
 
+const Header = ()=>{
+    return(
+        <div>
+            
+        </div>
+    )
+}
+
 
 const AppLayout = () => {
     return (
