@@ -30,3 +30,15 @@
     display: flex;
     align-items: center;
 }
+
+.res-card{
+    width :200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.Search{
+    margin: 15px;
+}

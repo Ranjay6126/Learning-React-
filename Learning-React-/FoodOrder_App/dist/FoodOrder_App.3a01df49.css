@@ -27,4 +27,15 @@
   padding-left: 40px;
   display: flex;
 }
+
+.res-card {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+}
+
+.Search {
+  margin: 15px;
+}
 /*# sourceMappingURL=FoodOrder_App.3a01df49.css.map */
