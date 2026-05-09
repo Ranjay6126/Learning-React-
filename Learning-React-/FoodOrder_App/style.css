@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius:10px;
+    background-color: rgb(255, 239, 179);
+    height: 70px;
+    
+    align-items: center;
+}
+
+.nav-itmes>ul{
+    font-size:20px;
+    display:flex;
+    list-style-type:none;
+    align-items: center;
+   justify-content: center;
+}
+
+
+.nav-itmes>ul>li{
+    padding: 15px;
+    margin:15px;  
+   
+}
+  
+.logo{
+    padding-top: 2;
+    padding-left: 40;
+    display: flex;
+    align-items: center;
+}
