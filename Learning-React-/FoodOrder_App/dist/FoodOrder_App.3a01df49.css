@@ -29,13 +29,30 @@
 }
 
 .res-card {
-  border: 1px solid #000;
+  border: 1px solid #a69b9b;
   border-radius: 10px;
   width: 200px;
   height: 300px;
+  margin: 19.5px;
+  padding: 5px;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
 }
 
 .Search {
   margin: 15px;
+}
+
+.res-logo {
+  border-radius: 10px;
+  width: 100%;
 }
 /*# sourceMappingURL=FoodOrder_App.3a01df49.css.map */

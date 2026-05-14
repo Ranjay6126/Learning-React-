@@ -43,12 +43,19 @@ const Header = ()=>{
 
 //Resto card component
 
-const RestaurantCard = () =>{
-    return(
+const RestaurantCard = () => {
+    return (
         <div className="res-card">
 
-            <img src="https://www.magnific.com/free-photos-vectors/food" alt="fry chicken" />
+            <img className="res-logo"
+                src="https://images.unsplash.com/photo-1513104890138-7c749659a591"
+                alt="pizza"
+            />
+
             <h3>Meghana Foods</h3>
+            <h4>Pizza,North Indian,</h4>
+            <h4>4.4 start</h4>
+            <h4>38 Minutes</h4>
 
         </div>
     )
@@ -67,6 +74,18 @@ const Body = () => {
             <div className="res-container">
 
 <RestaurantCard/>
+<RestaurantCard/>
+<RestaurantCard/>
+<RestaurantCard/>
+<RestaurantCard/>
+<RestaurantCard/>
+<RestaurantCard/>
+<RestaurantCard/>
+<RestaurantCard/>
+<RestaurantCard/>
+<RestaurantCard/>
+<RestaurantCard/>
+
                  
             </div>
         
