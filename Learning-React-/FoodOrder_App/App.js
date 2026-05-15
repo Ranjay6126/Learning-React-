@@ -43,7 +43,7 @@ const Header = ()=>{
 
 //Resto card component
 
-const RestaurantCard = () => {
+const RestaurantCard = (props) => {
     return (
         <div className="res-card">
 
@@ -52,8 +52,8 @@ const RestaurantCard = () => {
                 alt="pizza"
             />
 
-            <h3>Meghana Foods</h3>
-            <h4>Pizza,North Indian,</h4>
+            <h3>{props.resname}</h3>
+            <h4>{props.cuisine}</h4>
             <h4>4.4 start</h4>
             <h4>38 Minutes</h4>
 
@@ -73,18 +73,31 @@ const Body = () => {
 
             <div className="res-container">
 
-<RestaurantCard/>
-<RestaurantCard/>
-<RestaurantCard/>
-<RestaurantCard/>
-<RestaurantCard/>
-<RestaurantCard/>
-<RestaurantCard/>
-<RestaurantCard/>
-<RestaurantCard/>
-<RestaurantCard/>
-<RestaurantCard/>
-<RestaurantCard/>
+<RestaurantCard resname="Meghana Foods"
+cuisine="Pizza,North Indian"/>
+<RestaurantCard resname="Hungary Food"
+cuisine="kfc,Punjab,India"/>
+<RestaurantCard resname="Nepali MOMO"
+cuisine="MO:MO,Ktm, Nepal"/>
+<RestaurantCard resname="Pizza Hub"
+cuisine="Pizza,Ktm, Nepal"/>
+<RestaurantCard resname="Nepali MOMO"
+cuisine="MO:MO,Ktm, Nepal"/>
+<RestaurantCard resname="Nepali MOMO"
+cuisine="MO:MO,Ktm, Nepal"/>
+<RestaurantCard resname="Nepali MOMO"
+cuisine="MO:MO,Ktm, Nepal"/>
+<RestaurantCard resname="Nepali MOMO"
+cuisine="MO:MO,Ktm, Nepal"/>
+<RestaurantCard resname="Pizza Hub"
+cuisine="Pizza,Ktm, Nepal"/>
+<RestaurantCard resname="Nepali MOMO"
+cuisine="MO:MO,Ktm, Nepal"/>
+<RestaurantCard resname="Nepali MOMO"
+cuisine="MO:MO,Ktm, Nepal"/>
+<RestaurantCard resname="Nepali MOMO"
+cuisine="MO:MO,Ktm, Nepal"/> 
+
 
                  
             </div>
@@ -104,7 +117,6 @@ const AppLayout = () => {
         </div>
     )
 }
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
