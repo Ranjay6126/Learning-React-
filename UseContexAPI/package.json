@@ -1,0 +1,10 @@
+{
+  "name": "usecontext-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix usecontext run dev",
+    "build": "npm --prefix usecontext run build",
+    "lint": "npm --prefix usecontext run lint",
+    "preview": "npm --prefix usecontext run preview"
+  }
+}
